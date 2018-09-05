@@ -1,0 +1,12 @@
+[user]
+	name = wiltseb
+	email = wiltseb@oregonstate.edu
+[core]
+	editor = nano
+[push]
+	default = simple
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
