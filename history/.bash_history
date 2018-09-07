@@ -500,3 +500,77 @@ shopt login_shell
 exit
 vim ~/.bash_profile 
 exit
+vim ~/.bash_profile 
+ls
+cd .dotfiles/
+ls
+cd git/
+cd ..
+git init
+echo "# .dotfiles" >> README.md
+git add README.md 
+git commit -m "first commit"
+git remote add origin https://github.com/wiltseb/.dotfiles.git
+git push -u origin master
+git status
+ls
+rm .install.sh.un~ 
+ls
+cd git/
+ls
+ls -a
+cd ..
+vim install.sh 
+git status
+git add *
+git status
+git commit -m "Getting started with some dotfiles"
+git push
+ls
+ls -pla
+ls
+vim .aliases 
+psgrep
+vim .aliases 
+which psgrep
+vim .aliases 
+aliases
+speedtest
+ls
+aliases
+vim .aliases 
+functions
+vim .aliases 
+tree
+vim .aliases 
+week
+firefox
+vim .aliases 
+historie
+history
+GET
+vim .aliases 
+vim .inputrc 
+set -o vi
+ls
+set +o vi
+ls
+vim .env
+ls -a
+vim .prompt
+setaf
+ls
+vim .inputrc
+vimputrc
+exit
+sudo apt-get update
+sudo apt-get upgrade
+sudo do-release-upgrade
+cal
+ls
+cd /
+ls
+cd sbin/
+ls
+ifup
+ifup --help
