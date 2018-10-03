@@ -22,7 +22,7 @@ ln -sfv "$DOTFILES_DIR/runcom/.inputrc" ~
 ln -sfv "$DOTFILES_DIR/runcom/.vimrc" ~
 ln -sfv "$DOTFILES_DIR/runcom/.screenrc" ~
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
-ln -sfv "$DOTFILES_DIR/system/.aliases" ~
+ln -sfv "$DOTFILES_DIR/system/.bash_aliases" ~
 ln -sfv "$DOTFILES_DIR/system/.exports" ~
 ln -sfv "$DOTFILES_DIR/system/.env" ~
 ln -sfv "$DOTFILES_DIR/system/.prompt" ~
